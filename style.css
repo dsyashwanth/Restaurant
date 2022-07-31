@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Red Rose", cursive;
+  }
+body {
+    background-image: linear-gradient(to bottom,rgba(3, 33, 61, 0.776), rgba(3, 33, 61, 0.708)),url(./assets/pexels.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: #f8bc16;
+    padding: 4%;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+.list {
+    display:flex ;
+    justify-content: center;
+    list-style-type: none;
+    align-items: center;
+}
+.list li{
+    padding-left: 120px;
+    font-weight: bolder;
+    font-size: large;
+}
+.hero{
+    text-align: center;
+    font-size: 95px;
+    line-height: 0.9;
+}
+.button-small {
+    padding: 10px 25px;
+    background-color: #f34c4c;
+    color: #ffffff;
+    font-size: 16px;
+}
+.button-large {
+    padding: 15px 45px;
+    background-color: #f34c4c;
+    color: #ffffff;
+    font-size: 20px;
+}
+.bottom {
+    position: absolute;
+    right: 4%;
+}
