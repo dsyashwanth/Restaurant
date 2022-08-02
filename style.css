@@ -5,7 +5,7 @@
     font-family: "Red Rose", cursive;
   }
 body {
-    background-image: linear-gradient(to bottom,rgba(3, 33, 61, 0.776), rgba(3, 33, 61, 0.708)),url(./assets/pexels.png);
+    background-image: linear-gradient(to bottom,rgba(3, 33, 61, 0.776), rgba(3, 33, 61, 0.708)),url(./pexels.png);
     background-position: center;
     background-size: cover;
     height: 100vh;
